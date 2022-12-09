@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="4">
+<!--        자동 wrap wrap -->
+        <TextView
+            android:id="@+id/bsd_category_work"
+            android:text="WORK"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/khnphdttfb"
+            android:background="@drawable/bg_rectangle"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bsd_category_study"
+            android:text="STUDY"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/khnphdttfb"
+            android:background="@drawable/bg_rectangle"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bsd_category_health"
+            android:text="HEALTH"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/khnphdttfb"
+            android:background="@drawable/bg_rectangle"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bsd_category_hobby"
+            android:text="HOBBY"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/khnphdttfb"
+            android:background="@drawable/bg_rectangle"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/bsd_category_meeting"
+            android:text="MEETING"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/khnphdttfb"
+            android:background="@drawable/bg_rectangle"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/bsd_category_etc"
+            android:text="ETC"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/khnphdttfb"
+            android:background="@drawable/bg_rectangle"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"/>
+    </GridLayout>
+
+
+</RelativeLayout>
