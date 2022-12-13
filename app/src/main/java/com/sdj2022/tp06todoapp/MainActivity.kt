@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loadData() {
+        // 설정한 프로필과 닉네임을 저장한 SharedPreferences "account" 에서 데이터 가져오기
         val pref = getSharedPreferences("account", MODE_PRIVATE)
         val profile = pref.getString("profile", "")
         val name = pref.getString("name", "")
