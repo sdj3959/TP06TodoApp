@@ -18,6 +18,7 @@ class TodoActivity : AppCompatActivity() {
     var category:Int = 0 //카테고리 구분번호
     var categoryTitle:Array<String> = arrayOf("ALL", "WORK", "STUDY", "HEALTH", "HOBBY", "MEETING", "ETC", "DONE")
 
+    // 카테고리별로 나타날 명언 배열
     var slogans:Array<String> = arrayOf(
         "사람은 선택할 수 있고 바꿀 수 있는 힘이 있습니다.",
         "오늘일을 내일로 미루지 마세요.",
